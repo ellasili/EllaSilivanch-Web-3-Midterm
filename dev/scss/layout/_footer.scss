@@ -7,8 +7,37 @@ footer{
     .content {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-areas: 1fr 1fr
+        grid-template-areas: 1fr
+
+
         ;
+
+        .arrow {
+            grid-area: arrow
+        }
+
+        .phone {
+            grid-area: phone
+        }
+
+        .arrow2 {
+            grid-area: arrow2
+        }
+
+        .phone2 {
+            grid-area: phone2
+        }
+
+        .arrow3 {
+            grid-area: arrow3
+        }
+
+        .phone3 {
+            grid-area: phone3
+        }
+
+
+
 
     }
 

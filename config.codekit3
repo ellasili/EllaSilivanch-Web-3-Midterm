@@ -177,11 +177,37 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/arrow.png" : {
+      "ft" : 32768,
+      "iS" : 518,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/arrow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/chonk.png" : {
       "ft" : 32768,
       "iS" : 1088557,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/chonk.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/phone.png" : {
+      "ft" : 32768,
+      "iS" : 306,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/phone.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

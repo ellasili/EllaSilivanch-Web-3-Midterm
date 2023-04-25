@@ -377,7 +377,25 @@ header .content {
 footer .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: 1fr 1fr;
+  grid-template-areas: 1fr;
+}
+footer .content .arrow {
+  grid-area: arrow;
+}
+footer .content .phone {
+  grid-area: phone;
+}
+footer .content .arrow2 {
+  grid-area: arrow2;
+}
+footer .content .phone2 {
+  grid-area: phone2;
+}
+footer .content .arrow3 {
+  grid-area: arrow3;
+}
+footer .content .phone3 {
+  grid-area: phone3;
 }
 
 /* =============
