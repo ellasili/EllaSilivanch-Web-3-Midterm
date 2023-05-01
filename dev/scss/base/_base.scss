@@ -4,7 +4,7 @@
 
 
 .large-images {
-     width:100%
+     width:100%;
 }
 
 .container {
@@ -17,4 +17,38 @@
 
 .content {
     grid-area:content;
+}
+
+body{
+    background-color:aqua;
+
+    @include md{
+        background-color: greenyellow;
+    }
+
+}
+
+@include sm{
+    body {
+        background-color: lime;
+    }
+
+}
+
+@include lg{
+    body {
+        background-color: orange;
+    }
+
+}
+
+@include xl{
+    body {
+        background-color: pink;
+    }
+
+}
+
+@include xxl{
+
 }

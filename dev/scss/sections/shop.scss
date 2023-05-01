@@ -1,0 +1,40 @@
+/* =============
+    Base
+============= */
+
+
+.large-images {
+     width:100%
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". content ." 
+    ;
+}
+
+.content {
+    grid-area:content;
+}
+
+.shop{
+    &.container{
+    ul{
+        @include sm{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        @include md{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        @include lg{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+}

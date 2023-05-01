@@ -8,9 +8,12 @@ footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas: 1fr
-
-
         ;
+        @include md{
+            grid-template-columns: 1fr 1fr;
+            
+            ;
+        }
 
         .arrow {
             grid-area: arrow

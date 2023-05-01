@@ -1,0 +1,18 @@
+/* =============
+    Typography
+============= */
+
+.news{
+    &.container{
+     ul{
+        @include md{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        @include lg{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+    }
+}

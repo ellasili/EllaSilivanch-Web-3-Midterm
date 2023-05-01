@@ -336,6 +336,30 @@ template {
   grid-area: content;
 }
 
+body {
+  background-color: aqua;
+}
+@media (min-width: 768px) {
+  body {
+    background-color: greenyellow;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    background-color: lime;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    background-color: orange;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background-color: pink;
+  }
+}
 /* =============
     Typography
 ============= */
@@ -379,6 +403,11 @@ footer .content {
   grid-template-columns: 1fr 1fr;
   grid-template-areas: 1fr;
 }
+@media (min-width: 768px) {
+  footer .content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 footer .content .arrow {
   grid-area: arrow;
 }
@@ -399,6 +428,32 @@ footer .content .phone3 {
 }
 
 /* =============
+    Typography
+============= */
+@media (min-width: 768px) {
+  .location ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* =============
+    Typography
+============= */
+@media (min-width: 768px) {
+  .news.container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .news.container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* =============
     Base
 ============= */
 .large-images {
@@ -413,4 +468,46 @@ footer .content .phone3 {
 
 .content {
   grid-area: content;
+}
+
+@media (min-width: 576px) {
+  .shop.container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .shop.container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .shop.container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* =============
+    Typography
+============= */
+@media (min-width: 768px) {
+  .introducing.container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 768px) {
+  .introducing.container {
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-areas: ". content .";
+  }
+}
+@media (min-width: 1200px) {
+  .introducing.container {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "p1 p1 p1 p2 p2 p3";
+  }
 }
