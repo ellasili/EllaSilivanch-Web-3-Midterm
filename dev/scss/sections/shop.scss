@@ -1,0 +1,57 @@
+/* =============
+    Base
+============= */
+
+
+.large-images {
+     width:100%
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". content ." 
+    ;
+}
+
+.content {
+    grid-area:content;
+}
+
+.shop{
+    padding-top:30px;
+    &.container{
+    form{
+        text-align: right;
+    }
+    ul{
+        @include sm{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        @include md{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+
+        @include lg{
+            display:grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+    }
+
+    button{
+        color:#000000;
+        text-align: right;
+     }
+
+    input{
+        color:#000000;
+        align-items: center;
+    }
+    img{
+        margin: 5px 5px;
+    }
+    }   
+}

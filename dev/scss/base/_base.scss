@@ -3,3 +3,71 @@
 ============= */
 
 
+.large-images {
+     width:100%;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: 
+    ". content ." 
+    ;
+}
+
+.dark-outline {
+    border:1px solid#2A3036;
+    background-color:#2A3036;
+    border-radius:2px;
+}
+
+.outline {
+    border:1px solid #4C7095;
+    background-color: #4c7095;
+    border-radius:2px;
+    h2{
+        color: #FFFFFF
+    }
+
+}
+
+.button-light{
+    input{
+        button{
+            color:black;
+        }
+    }
+    button{
+        color:black;
+    }
+}
+
+.content {
+    grid-area:content;
+}
+
+.content-spacing{
+    ul{
+    padding-top:30px;
+    }
+
+}
+
+.content-spacing2{
+    padding-right:30px;
+    padding-left:30px;
+}
+
+.right-align {
+    .h1,h2,p,button{
+        text-align:right
+    }
+}
+
+.center-align {
+    text-align: center;
+}
+
+.left-align{
+    text-align:left;
+}

@@ -1,3 +1,31 @@
 /* =============
     Header
 ============= */
+<<<<<<< Updated upstream
+=======
+
+header {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 15px 0px;
+    }
+
+    li{
+        display:none;
+
+        @include md{
+            display:block;
+        }
+        @include sm{
+            display:block;
+        }
+
+        @include lg{
+            display:block;
+        }
+    }
+
+
+}
+>>>>>>> Stashed changes

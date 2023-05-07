@@ -1,0 +1,47 @@
+/* =============
+    Typography
+============= */
+
+.location{
+    
+    .h2,h3,p{
+        color:#FFFFFF
+    }
+    ul{
+        @include md{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    li{
+        display:none;
+
+        @include md{
+            display:block;
+        }
+        @include sm{
+            display:block;
+        }
+
+        @include lg{
+            display:block;
+        }
+    }
+    input{
+        border:1px solid white;
+        background-color: #405D7A;
+        color:white;
+        padding:10px 30px;
+    }
+    
+    button{
+        padding:10px 30px;
+    }
+}
+
+
+.footer-color{
+    background-color: #2A3036;
+    color:#FFFFFF
+}
+    
