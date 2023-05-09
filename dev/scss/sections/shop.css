@@ -1,6 +1,11 @@
 /* =============
-    Base
+    Shop
 ============= */
+img {
+  width: 60px;
+  padding-right: 0.5rem;
+}
+
 .large-images {
   width: 100%;
 }

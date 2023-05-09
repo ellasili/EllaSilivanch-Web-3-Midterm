@@ -1,33 +1,33 @@
 /* =============
-    Typography
+    Introducing
 ============= */
 
 .introducing{
-    background-color: #405D7A;
     &.container{
+        background-color: #405D7A;
         h1,p{
             color: #FFFFFF
         }
 
-        ul{
-            @include sm{
-                display:grid;
-                grid-template-columns: 1fr 1fr;
-            }
+        .sm{
+            display:grid;
+            background-color: #405D7A;
         }
-        @include md{
+
+        .md{
             display:grid;
             grid-template-columns: 10% auto 10%;
             grid-template-areas: 
-            ". content ." 
+            ". content .";
+            background-color: #405D7A;
             ;
-
         }
 
-        @include xl{
+        .xl{
             grid-template-columns: repeat(6,1fr);
             grid-template-areas: 
-            "p1 p1 p1 p2 p2 p3"
+            "p1 p1 p1 p2 p2 p3";
+            background-color: #405D7A;
             ;
         }
         .introducing-content{
@@ -37,17 +37,18 @@
                 padding:15px 10px;
             }
         }
+
         li{
             display:none;
     
-            @include md{
+            .md{
                 display:block;
             }
-            @include sm{
+            .sm{
                 display:block;
             }
     
-            @include lg{
+            .lg{
                 display:block;
             }
         }
@@ -72,6 +73,7 @@
         background-color: #405D7A;
         color:white;
         margin:30px 60px;
- }
+    }
+ 
 
 }

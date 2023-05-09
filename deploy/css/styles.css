@@ -18,10 +18,8 @@ html {
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -56,12 +54,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -69,10 +64,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -89,12 +82,9 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -112,10 +102,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -165,14 +153,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -180,8 +164,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -190,8 +173,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -240,18 +222,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -274,10 +250,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -293,10 +267,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -311,10 +283,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -352,8 +322,6 @@ template {
 /* =============
     Base
 ============= */
-<<<<<<< Updated upstream
-=======
 .large-images {
   width: 100%;
 }
@@ -407,7 +375,10 @@ template {
   text-align: center;
 }
 
->>>>>>> Stashed changes
+.left-align {
+  text-align: left;
+}
+
 /* =============
     Typography
 ============= */
@@ -438,11 +409,6 @@ textarea {
 /* =============
     Header
 ============= */
-<<<<<<< Updated upstream
-/* =============
-    Footer
-============= */
-=======
 header .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -470,251 +436,3 @@ header li {
 /* =============
     Footer
 ============= */
-footer .content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: 1fr;
-}
-@media (min-width: 768px) {
-  footer .content {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-footer .content .arrow {
-  grid-area: arrow;
-}
-footer .content .phone {
-  grid-area: phone;
-}
-footer .content .arrow2 {
-  grid-area: arrow2;
-}
-footer .content .phone2 {
-  grid-area: phone2;
-}
-footer .content .arrow3 {
-  grid-area: arrow3;
-}
-footer .content .phone3 {
-  grid-area: phone3;
-}
-
-/* =============
-    Typography
-============= */
-.location .h2, .location h3, .location p {
-  color: #FFFFFF;
-}
-@media (min-width: 768px) {
-  .location ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-.location li {
-  display: none;
-}
-@media (min-width: 768px) {
-  .location li {
-    display: block;
-  }
-}
-@media (min-width: 576px) {
-  .location li {
-    display: block;
-  }
-}
-@media (min-width: 992px) {
-  .location li {
-    display: block;
-  }
-}
-.location input {
-  border: 1px solid white;
-  background-color: #405D7A;
-  color: white;
-  padding: 10px 30px;
-}
-.location button {
-  padding: 10px 30px;
-}
-
-.footer-color {
-  background-color: #2A3036;
-  color: #FFFFFF;
-}
-
-/* =============
-    Typography
-============= */
-.news.container ul {
-  padding-left: 0%;
-}
-@media (min-width: 768px) {
-  .news.container ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media (min-width: 992px) {
-  .news.container ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-.news.container ul li {
-  list-style: none;
-  text-align: center;
-  padding: 10px;
-}
-.news.container li {
-  display: none;
-}
-@media (min-width: 768px) {
-  .news.container li {
-    display: block;
-  }
-}
-@media (min-width: 576px) {
-  .news.container li {
-    display: block;
-  }
-}
-@media (min-width: 992px) {
-  .news.container li {
-    display: block;
-  }
-}
-.news input {
-  border: 1px solid white;
-  background-color: #405D7A;
-  color: white;
-}
-.news button {
-  border: 1px solid white;
-  background-color: #405D7A;
-  color: white;
-  padding: 20px 60px;
-}
-
-/* =============
-    Base
-============= */
-.large-images {
-  width: 100%;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". content .";
-}
-
-.content {
-  grid-area: content;
-}
-
-.shop {
-  padding-top: 30px;
-}
-.shop.container form {
-  text-align: right;
-}
-@media (min-width: 576px) {
-  .shop.container ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-@media (min-width: 768px) {
-  .shop.container ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-@media (min-width: 992px) {
-  .shop.container ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-.shop.container button {
-  color: black;
-  text-align: right;
-}
-.shop.container input {
-  color: black;
-  align-items: center;
-}
-.shop.container img {
-  margin: 5px 5px;
-}
-
-/* =============
-    Typography
-============= */
-.introducing {
-  background-color: #405D7A;
-}
-.introducing.container h1, .introducing.container p {
-  color: #FFFFFF;
-}
-@media (min-width: 576px) {
-  .introducing.container ul {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media (min-width: 768px) {
-  .introducing.container {
-    display: grid;
-    grid-template-columns: 10% auto 10%;
-    grid-template-areas: ". content .";
-  }
-}
-@media (min-width: 1200px) {
-  .introducing.container {
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-areas: "p1 p1 p1 p2 p2 p3";
-  }
-}
-.introducing.container .introducing-content p, .introducing.container .introducing-content h1, .introducing.container .introducing-content button {
-  text-align: center;
-  padding: 15px 10px;
-}
-.introducing.container li {
-  display: none;
-}
-@media (min-width: 768px) {
-  .introducing.container li {
-    display: block;
-  }
-}
-@media (min-width: 576px) {
-  .introducing.container li {
-    display: block;
-  }
-}
-@media (min-width: 992px) {
-  .introducing.container li {
-    display: block;
-  }
-}
-.introducing.container .outline-spacing p, .introducing.container .outline-spacing h1, .introducing.container .outline-spacing button {
-  text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
-}
-.introducing input {
-  border: 1px solid white;
-  background-color: #405D7A;
-  color: white;
-}
-.introducing button {
-  border: 1px solid white;
-  padding: 20px 80px;
-  background-color: #405D7A;
-  color: white;
-  margin: 30px 60px;
-}
->>>>>>> Stashed changes

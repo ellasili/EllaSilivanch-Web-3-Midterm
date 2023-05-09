@@ -1,7 +1,14 @@
 /* =============
-    Base
+    Shop
 ============= */
 
+
+
+img{
+    width:60px;
+    padding-right: 0.5rem;
+
+}
 
 .large-images {
      width:100%
@@ -25,22 +32,7 @@
     form{
         text-align: right;
     }
-    ul{
-        @include sm{
-            display:grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
-        @include md{
-            display:grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
-
-        @include lg{
-            display:grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-        }
-    }
-
+    
     button{
         color:#000000;
         text-align: right;
