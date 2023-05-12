@@ -57,21 +57,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/facebook2.svg" : {
+    "\/deploy\/img\/facebook.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/facebook2.svg",
+      "oAP" : "\/deploy\/img\/facebook.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/image1.svg" : {
+    "\/deploy\/img\/image 1.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/image1.svg",
+      "oAP" : "\/deploy\/img\/image 1.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -127,19 +127,6 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/image7.jpg" : {
-      "ft" : 16384,
-      "iS" : 78988,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/image7.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/image7.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -160,11 +147,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/insta2.svg" : {
+    "\/deploy\/img\/insta.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/insta2.svg",
+      "oAP" : "\/deploy\/img\/insta.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -190,21 +177,21 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/reilogofooter.svg" : {
+    "\/deploy\/img\/reifooter.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/reilogofooter.svg",
+      "oAP" : "\/deploy\/img\/reifooter.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/reilogoheader.svg" : {
+    "\/deploy\/img\/reiheader.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/reilogoheader.svg",
+      "oAP" : "\/deploy\/img\/reiheader.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -220,21 +207,21 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/twitter2.svg" : {
+    "\/deploy\/img\/twitter.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/twitter2.svg",
+      "oAP" : "\/deploy\/img\/twitter.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/youtube2.svg" : {
+    "\/deploy\/img\/youtube.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/youtube2.svg",
+      "oAP" : "\/deploy\/img\/youtube.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -398,21 +385,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/helpers\/styles.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/helpers\/styles.css",
-      "oF" : 2,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -451,9 +423,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/introducing.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -496,9 +468,24 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/shop.css",
-      "oF" : 0,
+      "oF" : 1,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/styles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/css\/styles.css",
+      "oF" : 2,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -1144,7 +1131,7 @@
         "active" : 1
       },
       "no-compare-neg-zero" : {
-        "active" : 0
+        "active" : 1
       },
       "no-cond-assign" : {
         "active" : 1,
@@ -1325,10 +1312,10 @@
       },
       "no-magic-numbers" : {
         "active" : 0,
-        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
+        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'ignoreClassFieldInitialValues': false, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 0
+        "active" : 1
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -1499,7 +1486,7 @@
       },
       "no-underscore-dangle" : {
         "active" : 0,
-        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false, 'allowFunctionParams': true}"
+        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false, 'enforceInClassFields': false, 'allowFunctionParams': true}"
       },
       "no-unexpected-multiline" : {
         "active" : 1
@@ -1545,7 +1532,7 @@
       },
       "no-use-before-define" : {
         "active" : 0,
-        "optionString" : "{'functions': true, 'classes': true, 'variables': true}"
+        "optionString" : "{'functions': true, 'classes': true, 'variables': true, 'allowNamedExports': false}"
       },
       "no-useless-backreference" : {
         "active" : 1
@@ -1726,7 +1713,7 @@
       },
       "sort-keys" : {
         "active" : 0,
-        "optionString" : "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2}"
+        "optionString" : "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2, 'allowLineSeparatedGroups': false}"
       },
       "sort-vars" : {
         "active" : 0,
@@ -1967,7 +1954,7 @@
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
       "optimizerType" : 1,
-      "quality" : 100,
+      "quality" : 90,
       "webpOptimizationPresetUUID" : "lpckwebp-none",
       "webpRGBQuality" : 75
     },
