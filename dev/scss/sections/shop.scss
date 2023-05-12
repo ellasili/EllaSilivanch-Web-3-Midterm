@@ -4,43 +4,55 @@
 
 
 
-.large-images {
-  width:100%
-}
-
 .container {
     display:grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: 
     ". content .";
     
-    
 }
 
-form{
-    flex:auto
-
-}
 .content {
     grid-area:content;
 }
 
 .shop{
-    padding-top:30px;
-    &.container{
-    form{
-        text-align: right;
+
+    img{
+        padding:10px;
     }
-    
+
     button{
-        color:#000000;
-        text-align: right;
-     }
+        border:none;
+        border-radius:5px;
+        color: #FFFFFF;
+        align-items: right;
+        flex:50px;
+         margin: 20px;
+    }
 
     input{
-        color:#000000;
-        align-items: center;
+        color:#405D7A;
+        display:flex;
+        width:100%;
+        border: none;
+        border-bottom: 2px solid #4C7095;
+        margin: 10px;
+        font-size:16px;
+
+
     }
 
-    }   
+    ::placeholder{
+    color: #2A3036;
+    opacity: 0.5;
+    }
+
+    form{
+    color: #405D7A;
+    display:flex;
+    border: none;
+    }
+        
+      
 }

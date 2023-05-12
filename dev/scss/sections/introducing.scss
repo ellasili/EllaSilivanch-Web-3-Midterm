@@ -9,8 +9,9 @@
         ul{
             @include sm{
             display:grid;
-            grid-template-columns: 1fr 1fr;
+            grid-template-columns: 1fr;
             background-color: #405D7A;
+        
             }
 
             @include md{
@@ -26,6 +27,7 @@
             }
 
         }
+
         h1,p{
             color: #FFFFFF
         }
@@ -33,7 +35,6 @@
         .introducing-content{
 
             p,h1,button{
-                text-align:center;
                 padding:15px 10px;
             }
 
@@ -55,7 +56,9 @@
 
         .outline-spacing{
             p,h1,button{
+                display:flex;
                 text-align:center;
+                align-self:bottom;
                 padding-left:30px;
                 padding-right:30px;
             }
@@ -75,6 +78,10 @@
         color:white;
         margin:30px 60px;
     }
- 
+
+    ul{
+        padding-left:10px;
+        padding-right:10px;
+    }
 
 }

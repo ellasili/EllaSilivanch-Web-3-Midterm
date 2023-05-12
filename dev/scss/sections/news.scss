@@ -4,6 +4,10 @@ News
 
 .news{
     &.container{
+
+        h2{
+            padding:10px 60px;
+        }
      ul{
         @include md{
             display: grid;
