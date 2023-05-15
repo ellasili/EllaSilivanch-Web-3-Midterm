@@ -8,16 +8,18 @@
         color:#FFFFFF;
     }
 
-    h3{
-        font-size:20px;
-    }
     
     .content{
     
+        @include sm{
+            display:grid;
+            grid-template-columns: 50% auto;
+            gap:20px;
+        }
 
         @include md{
             display:grid;
-            grid-template-columns: 50% auto;
+            grid-template-columns: repeat(3,1fr);
             gap:20px;
         }
 
@@ -36,6 +38,8 @@
     ul{
         img{
             padding-right:10px;
+
+    
         }
 
         h5{
@@ -51,7 +55,15 @@
 
         a{
             color:#FFFFFF;
+
+            &:hover{
+                color:#5E92C6;
+                transition: 0.5s;
+
+            }
         }
+
+    
     }
 
     li{
@@ -79,11 +91,74 @@
     button{
         padding:10px 10px;
     }
+
+    .newsletter{
+
+        form,h2{
+            display:flex;
+            flex-flow:wrap;
+            justify-content: right;
+        }
+    }
+
+
+    .follow{
+            
+        h2{
+            display:inline-block;
+            display:flex;
+            flex-flow:wrap;
+
+            @include sm{
+                justify-content: left;
+            }
+
+            @include md{
+                justify-content:center;
+            }
+
+            @include lg{
+                justify-content: center;
+            }
+            
+        }
+
+        img{
+            &:hover{
+                border-bottom: 2px solid #D6E2EE;
+                transition: 0.5s;
+                padding:5px;
+            }
+        }
+
+        
+    }
+
 }
 
 
 .footer-color{
     background-color: #2A3036;
-    color:#FFFFFF
+    color:#FFFFFF;
+
+    h2{
+        @include sm{
+            font-size:20px;
+        }
+
+        @include md{
+            font-size:20px;
+        }
+
+        @include lg{
+            font-size:20px;
+        }
+    
+    }
+
+    h3{
+        font-size:20px;
+    }
 }
+
 

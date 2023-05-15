@@ -50,6 +50,11 @@ News
         background-color: #405D7A;
         color:white;
         padding:20px 60px;
+
+        &:hover{
+            background-color: #30455A;
+            transition: 0.5s;
+        }
  }
  
 }

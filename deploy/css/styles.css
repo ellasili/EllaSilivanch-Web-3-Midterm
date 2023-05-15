@@ -416,6 +416,26 @@ template {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 100;
+}
+
 /* =============
     Buttons
 ============= */
@@ -522,12 +542,12 @@ li {
 .introducing.container .introducing-content p, .introducing.container .introducing-content h1, .introducing.container .introducing-content button {
   padding: 15px 10px;
 }
-@media (min-width: 768px) {
+@media (min-width: 576px) {
   .introducing.container li {
     display: block;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .introducing.container li {
     display: block;
   }
@@ -548,6 +568,7 @@ li {
   border: 1px solid white;
   background-color: #405D7A;
   color: white;
+  display: flex;
 }
 .introducing button {
   border: 1px solid white;
@@ -555,10 +576,37 @@ li {
   background-color: #405D7A;
   color: white;
   margin: 30px 60px;
+  display: flex;
+}
+.introducing button:hover {
+  background-color: #364E66;
+  transition: 0.5s;
 }
 .introducing ul {
   padding-left: 10px;
   padding-right: 10px;
+}
+.introducing span button {
+  font-size: 30px;
+  display: flex;
+}
+@media (min-width: 576px) {
+  .introducing span button {
+    width: 450px;
+    height: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .introducing span button {
+    width: 300px;
+    height: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .introducing span button {
+    width: 400px;
+    height: 100px;
+  }
 }
 
 /* =============
@@ -567,13 +615,17 @@ li {
 .location .h2, .location h3, .location p {
   color: #FFFFFF;
 }
-.location h3 {
-  font-size: 20px;
+@media (min-width: 576px) {
+  .location .content {
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 20px;
+  }
 }
 @media (min-width: 768px) {
   .location .content {
     display: grid;
-    grid-template-columns: 50% auto;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 }
@@ -600,6 +652,10 @@ li {
 }
 .location ul a {
   color: #FFFFFF;
+}
+.location ul a:hover {
+  color: #5E92C6;
+  transition: 0.5s;
 }
 .location li {
   display: none;
@@ -628,10 +684,58 @@ li {
 .location button {
   padding: 10px 10px;
 }
+.location .newsletter form, .location .newsletter h2 {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: right;
+}
+.location .follow h2 {
+  display: inline-block;
+  display: flex;
+  flex-flow: wrap;
+}
+@media (min-width: 576px) {
+  .location .follow h2 {
+    justify-content: left;
+  }
+}
+@media (min-width: 768px) {
+  .location .follow h2 {
+    justify-content: center;
+  }
+}
+@media (min-width: 992px) {
+  .location .follow h2 {
+    justify-content: center;
+  }
+}
+.location .follow img:hover {
+  border-bottom: 2px solid #D6E2EE;
+  transition: 0.5s;
+  padding: 5px;
+}
 
 .footer-color {
   background-color: #2A3036;
   color: #FFFFFF;
+}
+@media (min-width: 576px) {
+  .footer-color h2 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .footer-color h2 {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .footer-color h2 {
+    font-size: 20px;
+  }
+}
+.footer-color h3 {
+  font-size: 20px;
 }
 
 /* =============
@@ -689,6 +793,10 @@ News
   color: white;
   padding: 20px 60px;
 }
+.news button:hover {
+  background-color: #30455A;
+  transition: 0.5s;
+}
 
 /* =============
     Shop
@@ -714,6 +822,10 @@ News
   flex: 50px;
   margin: 20px;
 }
+.shop button:hover {
+  background-color: #A6C6E5;
+  transition: 0.5s;
+}
 .shop input {
   color: #405D7A;
   display: flex;
@@ -722,6 +834,10 @@ News
   border-bottom: 2px solid #4C7095;
   margin: 10px;
   font-size: 16px;
+}
+.shop input:hover {
+  background-color: #D6E2EE;
+  transition: 0.5s;
 }
 .shop ::placeholder {
   color: #2A3036;

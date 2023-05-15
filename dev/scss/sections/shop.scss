@@ -28,7 +28,12 @@
         color: #FFFFFF;
         align-items: right;
         flex:50px;
-         margin: 20px;
+        margin: 20px;
+
+        &:hover{
+            background-color: #A6C6E5;
+            transition: 0.5s;
+        }
     }
 
     input{
@@ -39,6 +44,11 @@
         border-bottom: 2px solid #4C7095;
         margin: 10px;
         font-size:16px;
+
+        &:hover{
+            background-color: #D6E2EE;
+            transition: 0.5s;
+        }
 
 
     }

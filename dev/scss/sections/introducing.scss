@@ -7,10 +7,12 @@
         background-color: #405D7A;
         
         ul{
+
             @include sm{
             display:grid;
             grid-template-columns: 1fr;
             background-color: #405D7A;
+            
         
             }
 
@@ -41,14 +43,13 @@
         }
 
         li{
-    
-            @include md{
-                display:block;
-            }
+
             @include sm{
                 display:block;
             }
-    
+            @include md{
+                display:block;
+            }
             @include lg{
                 display:block;
             }
@@ -69,6 +70,7 @@
         border:1px solid white;
         background-color: #405D7A;
         color:white;
+        display:flex; 
     }
 
     button{
@@ -77,11 +79,44 @@
         background-color: #405D7A;
         color:white;
         margin:30px 60px;
+        display:flex;
+
+        &:hover{
+            background-color: #364E66;
+            transition: 0.5s;
+        }
+
     }
 
     ul{
         padding-left:10px;
         padding-right:10px;
     }
+
+    span{
+        button{
+
+            font-size: 30px;
+            display:flex;
+
+
+            @include sm{
+                width: 450px;
+                height: 100px;
+            }
+
+            @include md{
+                width: 300px;
+                height: 100px;
+            }
+
+            @include lg{
+                width: 400px;
+                height: 100px;
+            }
+        
+        }
+    }
+
 
 }
