@@ -709,6 +709,25 @@ li {
     justify-content: center;
   }
 }
+.location .follow img {
+  display: inline-block;
+}
+@media (min-width: 576px) {
+  .location .follow img {
+    justify-content: left;
+  }
+}
+@media (min-width: 768px) {
+  .location .follow img {
+    justify-content: center;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .location .follow img {
+    justify-content: center;
+  }
+}
 .location .follow img:hover {
   border-bottom: 2px solid #D6E2EE;
   transition: 0.5s;

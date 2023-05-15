@@ -124,12 +124,29 @@
         }
 
         img{
+
+            display:inline-block;
+
+            @include sm{
+                justify-content: left;
+            }
+
+            @include md{
+                justify-content:center;
+                margin-left:10px;
+            }
+
+            @include lg{
+                justify-content: center;
+            }
+            
             &:hover{
                 border-bottom: 2px solid #D6E2EE;
                 transition: 0.5s;
                 padding:5px;
             }
         }
+
 
         
     }
