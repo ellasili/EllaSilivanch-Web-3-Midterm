@@ -9,6 +9,10 @@ News
             padding:10px 60px;
         }
      ul{
+        @include sm{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
         @include md{
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -24,21 +28,9 @@ News
             text-align:center;
             padding: 10px
         }
-    }
-    li{
-        display:none;
 
-        @include md{
-            display:block;
-        }
-        @include sm{
-            display:block;
-        }
-
-        @include lg{
-            display:block;
-        }
     }
+
     }
     input{
         border:1px solid white;

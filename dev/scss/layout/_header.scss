@@ -10,18 +10,7 @@ header {
     }
 
     li{
-        display:none;
-
-        @include md{
-            display:block;
-        }
-        @include sm{
-            display:block;
-        }
-
-        @include lg{
-            display:block;
-        }
+        list-style:none;
     }
 
 

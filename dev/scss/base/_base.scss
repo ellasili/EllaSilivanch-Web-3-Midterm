@@ -27,6 +27,7 @@
     border:0px solid #4C7095;
     background-color: #4c7095;
     border-radius:2px;
+    padding:8px;
     h2{
         color: #FFFFFF
     }
@@ -48,10 +49,13 @@
     grid-area:content;
 }
 
-.content-spacing{
-    ul{
-        padding-top:30px;
-    }
+
+.container {
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-areas: 
+    ". content ." 
+    ;
 }
 
 .content-spacing2{

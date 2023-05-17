@@ -13,7 +13,6 @@
             grid-template-columns: 1fr;
             background-color: #405D7A;
             
-        
             }
 
             @include md{
@@ -37,23 +36,12 @@
         .introducing-content{
 
             p,h1,button{
+                display:flex;
                 padding:15px 10px;
             }
 
         }
 
-        li{
-
-            @include sm{
-                display:block;
-            }
-            @include md{
-                display:block;
-            }
-            @include lg{
-                display:block;
-            }
-        }
 
         .outline-spacing{
             p,h1,button{

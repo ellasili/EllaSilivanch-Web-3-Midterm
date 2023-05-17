@@ -36,8 +36,10 @@
 
     }
     ul{
+        padding-left:0px;
         img{
             padding-right:10px;
+            padding-left:0px;
 
     
         }
@@ -67,18 +69,7 @@
     }
 
     li{
-        display:none;
-
-        @include md{
-            display:block;
-        }
-        @include sm{
-            display:block;
-        }
-
-        @include lg{
-            display:block;
-        }
+        list-style:none;
     }
     
     input{
@@ -105,9 +96,7 @@
     .follow{
             
         h2{
-            display:inline-block;
             display:flex;
-            flex-flow:wrap;
 
             @include sm{
                 justify-content: left;
